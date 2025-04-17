@@ -94,7 +94,7 @@ class _SectionTextInputStreamState extends State<SectionTextStreamInput> {
               gemini
                   .streamGenerateContent(searchedText!,
                       images: images,
-                      modelName: 'models/gemini-1.5-flash-latest')
+                      modelName: 'models/gemini-2.0-flash-latest')
                   .handleError((e) {
                 if (e is GeminiException) {
                   print(e);

@@ -6,7 +6,7 @@
 
 ## 2.0.5
 * ## Fixed
-* `gemini-pro-vision` is depreciated, changed to `gemini-1.5-flash`
+* `gemini-pro-vision` is depreciated, changed to `gemini-2.0-flash`
 
 ## 2.0.4-dev.1
 * ## new feature

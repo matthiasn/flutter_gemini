@@ -89,7 +89,7 @@ abstract class GeminiInterface {
   });
 
   /// [textAndImage] If the input contains both text and image, use
-  /// the `gemini-1.5-flash` model. The following snippets help you build a request and send it to the REST API.
+  /// the `gemini-2.0-flash` model. The following snippets help you build a request and send it to the REST API.
   Future<Candidates?> textAndImage({
     required String text,
     required List<Uint8List> images,
@@ -102,7 +102,7 @@ abstract class GeminiInterface {
   Future<void> cancelRequest();
 
   /// [prompt] If the input contains both text and image, use
-  /// the `gemini-1.5-flash` model. The following snippets help you build a request and send it to the REST API.
+  /// the `gemini-2.0-flash` model. The following snippets help you build a request and send it to the REST API.
   Future<Candidates?> prompt({
     required List<Part> parts,
     String? model,
@@ -111,7 +111,7 @@ abstract class GeminiInterface {
   });
 
   /// [prompt] If the input contains both text and image, use
-  /// the `gemini-1.5-flash` model. The following snippets help you build a request and send it to the REST API.
+  /// the `gemini-2.0-flash` model. The following snippets help you build a request and send it to the REST API.
   Stream<Candidates?> promptStream({
     required List<Part> parts,
     String? model,

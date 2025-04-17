@@ -2,7 +2,7 @@ import '../models/gemini_model/gemini_model.dart';
 
 class Constants {
   Constants._();
-  static const String defaultModel = 'models/gemini-1.5-flash';
+  static const String defaultModel = 'models/gemini-2.0-flash';
   static const String defaultVersion = 'v1beta';
   static const String defaultGenerateType = 'generateContent';
   static const String baseUrl = 'https://generativelanguage.googleapis.com/';
@@ -71,7 +71,7 @@ class Constants {
           "topK": 1
         },
         {
-          "name": "models/gemini-1.5-flash",
+          "name": "models/gemini-2.0-flash",
           "version": "001",
           "displayName": "Gemini Pro Vision",
           "description":
